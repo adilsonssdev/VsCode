@@ -1,0 +1,28 @@
+GitHub Copilot
+Alterar a política de execução do PowerShell para RemoteSigned é uma prática comum e geralmente segura, desde que você entenda as implicações. A política RemoteSigned permite a execução de scripts locais não assinados, mas requer que scripts baixados da internet sejam assinados por um editor confiável.
+
+Aqui está um resumo das políticas de execução do PowerShell:
+
+Restricted: Não permite a execução de scripts.
+AllSigned: Permite a execução de scripts assinados por um editor confiável.
+RemoteSigned: Permite a execução de scripts locais não assinados. Scripts baixados da internet precisam ser assinados.
+Unrestricted: Permite a execução de todos os scripts, mas avisa antes de executar scripts baixados da internet.
+Para a maioria dos desenvolvedores, RemoteSigned oferece um bom equilíbrio entre segurança e funcionalidade. No entanto, é importante baixar scripts apenas de fontes confiáveis.
+
+Se você decidir prosseguir, aqui está o comando novamente para alterar a política de execução:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Depois disso, você deve conseguir ativar o ambiente virtual com:
+
+Para desfazer a alteração na política de execução do PowerShell e voltar à configuração padrão, você pode definir a política de execução para Restricted. Aqui estão os passos:
+
+Abra o PowerShell como Administrador.
+Execute o seguinte comando para definir a política de execução como Restricted:
+
+Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser
+
+Quando solicitado, confirme a alteração digitando Y e pressionando Enter.
+Isso irá reverter a política de execução para a configuração mais restritiva, impedindo a execução de todos os scripts.
+
+Não há necessidade de modificar o arquivo Python existente. Apenas certifique-se de ajustar a política de execução do PowerShell conforme descrito.

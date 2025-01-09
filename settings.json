@@ -1,0 +1,127 @@
+{
+  // PowerMode
+  "powermode.enabled": true,
+  "powermode.presets": "flames",
+  "powermode.combo.timerEnabled": "hide",
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.shake.enabled": false,
+  "powermode.combo.location": "off",
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.rulers": [
+      80
+    ]
+  },
+  "python.analysis.autoImportCompletions": true,
+  "python.terminal.activateEnvironment": true,
+  "python.analysis.fixAll": [
+    "source.unusedImports"
+  ],
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.comments.insertSpace": true,
+  "editor.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showFolders": true,
+  "explorer.compactFolders": false,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.errorColor": "rgba(192, 122, 51,0)",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.cache": true,
+    "**/.coverage": true,
+    "**/.coverage.*": true,
+    "**/.hypothesis": true,
+    "**/.mypy_cache": true,
+    "**/.nox": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "__pycache__": true,
+    ".vscode": true,
+    "**/.tox": true
+  },
+  "editor.tabSize": 2,
+  "editor.indentSize": "tabSize",
+  "editor.minimap.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "vscode-icons",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.colorCustomizations": {
+    // Icone do perfil
+    "profileBadge.background": "#ff0800",
+    // Barra lateral esqueda
+    "activityBar.background": "#070707",
+    "activityBar.foreground": "#c07a33",
+    "activityBar.inactiveForeground": "#c7c4c4",
+    // Abas
+    "tab.activeBorder": "#c07a33",
+    "tab.activeBackground": "#070707",
+    "tab.inactiveBackground": "#070707",
+    "tab.activeForeground": "#ffffff",
+    "tab.inactiveForeground": "#c7c4c4",
+    "editorGroupHeader.tabsBackground": "#070707",
+    "tab.activeBorderTop": "#070707",
+    "tab.unfocusedInactiveForeground": "#c7c4c4",
+    "tab.unfocusedActiveForeground": "#ffffff",
+    "tab.hoverBackground": "#c07a332f", // Borda ao passar o mouse
+    // Painel de pastas
+    "sideBar.background": "#070707",
+    "sideBar.border": "#202020",
+    "sideBarSectionHeader.background": "#070707",
+    "sideBar.foreground": "#dfdddd",
+    // Editor
+    "editor.selectionBackground": "#c07a332f",
+    "editorLineNumber.foreground": "#494848",
+    "editor.background": "#070707",
+    "editorGroupHeader.border": "#070707",
+    "editor.snippetTabstopHighlightBorder": "#ed0c0c",
+    "editor.lineHighlightBorder": "#c07a332f",
+    "editorGroup.border": "#070707",
+    // Terminal e Painel
+    "terminal.border": "#202020",
+    "terminal.background": "#070707",
+    "panel.background": "#070707",
+    "panelTitle.activeForeground": "#ffffff",
+    "panel.border": "#202020",
+    "panelTitle.activeBorder": "#c07a33",
+    "panelTitle.inactiveForeground": "#b3b3b3",
+    "input.background": "#070707",
+    "": "#ed0c0c",
+    // Barra superir inferior
+    "breadcrumb.background": "#070707a2",
+    "breadcrumb.foreground": "#ffffff",
+    "statusBar.background": "#070707a2",
+    "titleBar.activeBackground": "#070707"
+  },
+  "RainbowBrackets.depreciation-notice": false,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.editorAssociations": {
+    "*.jpg": "luna.editor"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "debug.toolBarLocation": "commandCenter",
+  "jupyter.askForKernelRestart": false,
+  "vscode-edge-devtools.webhintInstallNotification": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.activityBar.location": "top",
+  "git.openRepositoryInParentFolders": "always",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "cSpell.language": "pt_BR, en",
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  "codeium.disableSupercomplete": true
+}
