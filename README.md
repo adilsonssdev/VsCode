@@ -1,4 +1,6 @@
-Comandos personalizados do PowerShell
+# Comandos personalizados do PowerShell
+
+```ps1
 $MaximumHistoryCount = 2000
 
 # Import-Module posh-git
@@ -103,9 +105,10 @@ function django-tables(){
   "Execultando: python manage.py migrate"
   python manage.py migrate
 }
-Configurações
-Basta copiar e colar o settings.json para a pasta de configuração de usuario do vsCode
 
-Extenções
-Basta copiar e colar o extensions.json para a pasta de confifuração do usuario do vsCode
+```
+# Configurações
+Basta copiar e colar o settings.json para a pasta de configuração de usuario do vsCode
+# Extenções
+Basta copiar e colar o extensions.json para a pasta de confifuração do usuario do vsCode\
 Talvez seja necessario alteração do path de usuario
